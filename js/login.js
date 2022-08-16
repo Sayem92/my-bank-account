@@ -10,6 +10,6 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     window.location.href = 'account.html'
     }
     else{
-        alert('Tui tor account password bujcos tore ami dukte dimu na!!!')
+        alert('Tui tor account password bulcos, tore ami dukte dimu na!!!')
     }
  });
