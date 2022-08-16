@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Show</title>
+     <!-- tailwind link  -->
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="mt-5">
+        <h1 class="text-5xl text-center">Let's get some <span class="text-yellow-500">Money!!!</span></h1>
+    </header>
+    <main>
+        <section class="w-9/12 mx-auto grid grid-cols-3 gap-4 mt-12">
+            <div class="bg-sky-300 py-8 px-8 rounded-lg">
+                <h1 class="text-2xl font-semibold text-white">Deposit</h1>
+                <h3 class="text-5xl text-white">$<span>00</span></h3>
+            </div>
+            <div class="bg-pink-300 py-8 px-8 rounded-lg">
+                <h1 class="text-2xl font-semibold text-white">Withdraw</h1>
+                <h3 class="text-5xl text-white">$<span>00</span></h3>
+            </div>
+            <div class="bg-yellow-300 py-8 px-8 rounded-lg">
+                <h1 class="text-2xl font-semibold text-white">Total Balance</h1>
+                <h3 class="text-5xl text-white">$<span>1240</span></h3>
+            </div>
+        </section>
+
+        <section class="w-9/12 mx-auto grid grid-cols-2 gap-4 mt-12">
+               <div class="bg-purple-500 px-6 py-8 rounded-lg">
+                <h3 class="text-3xl mb-4 ">Please Deposit</h3>
+                <input class="w-9/12 py-2 px-2 block mb-4" type="text" name="" id="deposit-field   " placeholder="$ Amount you want to deposit">
+                <button id="btn-deposit" class="bg-pink-600 hover:bg-sky-700  py-2 px-6 text-white rounded-lg " type="submit">Submit</button>
+               </div>
+
+               <div class="bg-green-500 px-6 py-8 rounded-lg">
+                <h3 class="text-3xl mb-4 ">Please Withdraw</h3>
+                <input class="w-9/12 py-2 px-2 block mb-4" type="text" name="" id="deposit-field   " placeholder="$ Amount you want to deposit">
+                <button id="btn-deposit" class="bg-pink-600 hover:bg-sky-700  py-2 px-6 text-white rounded-lg " type="submit">Submit</button>
+               </div>
+        </section>
+    </main>
+
+</body>
+</html>
