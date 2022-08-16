@@ -7,7 +7,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
    const password = passwordField.value ;
 
    if(email == 'sayem@sum.com'  && password == 'sabas'){
-    console.log('ok')
+    window.location.href = 'account.html'
     }
     else{
         alert('Tui tor account password bujcos tore ami dukte dimu na!!!')
