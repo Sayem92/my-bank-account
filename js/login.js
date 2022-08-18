@@ -6,7 +6,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
    const passwordField = document.getElementById('user-password');
    const password = passwordField.value ;
 
-   if(email == 'sayem@sum.com'  && password == 'sabas'){
+   if(email == 'sayem@sum.com'  && password == 12345){
     window.location.href = 'account.html'
     }
     else{
